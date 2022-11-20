@@ -1,4 +1,5 @@
 <div class="header">
+
     <ul class="menu">
         <li><a href="/">Main page</a></li>
         <li><a href="show-recipe">All recipes</a></li>
@@ -6,3 +7,12 @@
         <li><a href="logout">Logout</a></li>
     </ul>
 </div>
+<div>SEARCH</div>
+<form action="show-recipe" method="get">
+    <label for="user-prefix"> User:</label>
+    <input type="search" id="user-prefix" name="user-prefix">
+
+    <label for="recipe-prefix"> Title Recipe:</label>
+    <input type="search" id="recipe-prefix" name="recipe-prefix">
+    <input type="submit" value="send">
+</form>

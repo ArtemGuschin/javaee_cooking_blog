@@ -5,11 +5,12 @@
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>All recipes</title>
+    <title>Рецепты</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <c:import url="header.html"/>
+
 
     <c:forEach var="recipe" items="${requestScope.recipes}">
         <div class="recipe">

@@ -5,15 +5,20 @@
 
 
 .menu {
+    color: #aac6ea;
     display: flex;
     justify-content: center;
     align-content: center;
     list-style-type: none;
-    gap: 4rem;
+    gap: 5rem;
 }
 
 .header {
-    background: blanchedalmond;
+
+    background-color: #dee6f1;
+    padding: 30px;
+    font-size:30px;
+    text-align: center;
 }
 
 a {
@@ -21,7 +26,7 @@ a {
 }
 
 .recipe {
-    border: 1px solid black;
-    background: blanchedalmond;
-    margin: 1rem;
+    border: 5px solid #f3eeee;
+    background: #f6f2f0;
+    margin: 2rem;
 }
